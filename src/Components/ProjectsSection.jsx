@@ -4,10 +4,9 @@ const projects = [
   {
     id: 1,
     title: "Finance Management Application",
-    description: "A web page using ASP.NET and SQL.",
+    description: "Built a secure, role-based reporting web application using ASP.NET and SQL Server to streamline financial operations.",
     tags: ["ASP.NET", "SQL Server", "Git"],
-    demoUrl: "#",
-    githubUrl: "#",
+ 
   },
   {
     id: 2,
@@ -15,8 +14,6 @@ const projects = [
     description:
       "Interactive single-page dashboard with data visualization and filtering capabilities.",
     tags: ["JavaScript", "HTML", "CSS"],
-    demoUrl: "#",
-    githubUrl: "#",
   },
   {
     id: 3,
@@ -24,8 +21,6 @@ const projects = [
     description:
       "Visually engaging Movie Dashboard integrated with search and filter functionality.",
     tags: ["React", "TailwindCSS", "API"],
-    demoUrl: "#",
-    githubUrl: "#",
   },
 ];
 
@@ -63,24 +58,7 @@ export const ProjectsSection = () => {
                 <p className="text-muted-foreground text-sm mb-4">
                   {project.description}
                 </p>
-                <div className="flex justify-between items-center">
-                  <div className="flex space-x-3">
-                    <a
-                      href={project.demoUrl}
-                      target="_blank"
-                      className="text-foreground/80 hover:text-primary transition-colors duration-300"
-                    >
-                      <ExternalLink size={20} />
-                    </a>
-                    <a
-                      href={project.githubUrl}
-                      target="_blank"
-                      className="text-foreground/80 hover:text-primary transition-colors duration-300"
-                    >
-                      <Github size={20} />
-                    </a>
-                  </div>
-                </div>
+               
               </div>
             </div>
           ))}
@@ -90,7 +68,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/Sravanthi675"
           >
             Check My Github <ArrowRight size={16} />
           </a>
