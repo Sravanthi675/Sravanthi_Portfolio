@@ -3,14 +3,14 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "Finance Management Application",
+    title: "Financial Outlook Management Application",
     description: "Built a secure, role-based reporting web application using ASP.NET and SQL Server to streamline financial operations.",
     tags: ["ASP.NET", "SQL Server", "Git"],
  
   },
   {
     id: 2,
-    title: "Interactive Finance Dashboard",
+    title: "CXO Cockpitview Dashboard",
     description:
       "Interactive single-page dashboard with data visualization and filtering capabilities.",
     tags: ["JavaScript", "HTML", "CSS"],
@@ -20,7 +20,7 @@ const projects = [
     title: "Movie Dashboard",
     description:
       "Visually engaging Movie Dashboard integrated with search and filter functionality.",
-    tags: ["React", "TailwindCSS", "API"],
+    tags: ["React.js", "TailwindCSS", "API"],
   },
 ];
 
@@ -34,7 +34,7 @@ export const ProjectsSection = () => {
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Here are some of my recent projects. Each project was carefully
+          Here are some of my projects. Each project was carefully
           crafted with attention to detail, performance, and user experience.
         </p>
 

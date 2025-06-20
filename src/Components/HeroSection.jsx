@@ -21,7 +21,7 @@ export const HeroSection = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-          I turn ideas into interactive web experiences. Passionate about clean UI, smooth user journeys, and bringing designs to life with ReactJS, JavaScript, and a touch of Tailwind magic.
+          I turn ideas into interactive web experiences. Passionate about clean UI, smooth user journeys, and bringing designs to life with React.js, JavaScript, and a touch of Tailwind magic.
           </p>
 
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">
